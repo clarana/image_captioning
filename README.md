@@ -21,7 +21,7 @@ numpy 1.12 or newer
 ### Usage
 * **Preparation:** Download the COCO train2014 and val2014 data [here](http://cocodataset.org/#download). Put the COCO train2014 images in the folder `train/images`, and put the file `captions_train2014.json` in the folder `train`. Similarly, put the COCO val2014 images in the folder `val/images`, and put the file `captions_val2014.json` in the folder `val`. Furthermore, download the pretrained VGG16 net [here](https://app.box.com/s/idt5khauxsamcg3y69jz13w6sc6122ph) or ResNet50 net [here](https://app.box.com/s/17vthb1zl0zeh340m4gaw0luuf2vscne) if you want to use it to initialize the CNN part.
 
-If you are in China, you can visit the baidu disk link to download x or y, and json files. The training and verification sets are too large. Please download them from the above official website.Link: https://pan.baidu.com/s/1CjMfXAyJA75pCCGVVWJcUA password: GJRR
+If you are in China, you can visit the baidu disk link to download model of VGG16 or ResNet50, and json files. The training and verification sets are too large. Please download them from the above official website.Link: https://pan.baidu.com/s/1CjMfXAyJA75pCCGVVWJcUA password: GJRR
 
 If you have an error extracting the data set, use the command line to extract it. Make sure the data set is fully.
 
