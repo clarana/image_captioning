@@ -2,6 +2,7 @@
 This neural system for image captioning is roughly based on the paper "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention" by Xu et al. (ICML2015). The input is an image, and the output is a sentence describing the content of the image. It uses a convolutional neural network to extract visual features from the image, and uses a LSTM recurrent neural network to decode these features into a sentence. A soft attention mechanism is incorporated to improve the quality of the caption. This project is implemented using the Tensorflow library, and allows end-to-end training of both CNN and RNN parts.
 
 ### Prerequisites
+* **Python 3.7.4** ([instructions](https://www.python.org/))
 * **Tensorflow 1.14** ([instructions](https://www.tensorflow.org/install/))
 * **NumPy 1.17.2** ([instructions](https://scipy.org/install.html))
 * **OpenCV 4.1.1.26** ([instructions](https://pypi.python.org/pypi/opencv-python))
@@ -9,6 +10,8 @@ This neural system for image captioning is roughly based on the paper "Show, Att
 * **Pandas 0.25.1** ([instructions](https://scipy.org/install.html))
 * **Matplotlib 3.1.1** ([instructions](https://scipy.org/install.html))
 * **tqdm 4.36.1** ([instructions](https://pypi.python.org/pypi/tqdm))
+
+Support python3.6, python3.7, TensorFlow1.8 and newer
 
 
 ### Usage
