@@ -8,10 +8,12 @@ class ImageLoader(object):
         self.bgr = True
         self.scale_shape = np.array([224, 224], np.int32)
         self.crop_shape = np.array([224, 224], np.int32)
-        self.mean = np.load(mean_file).mean(1).mean(1)
+        #self.mean = np.load(mean_file).mean(1).mean(1)
+        self.mean = np.load(mean_file,allow_pickle=True).mean(1).mean(1)
 
     def load_image(self, image_file):
         """ Load and preprocess an image. """
+        #print("ma:",image_file,"****")
         image = cv2.imread(image_file)
 
         if self.bgr:
