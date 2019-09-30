@@ -19,7 +19,7 @@ numpy 1.12 or newer
 
 
 ### Usage
-* python3
+* python3 console
   
   import nltk
   
