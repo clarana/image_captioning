@@ -309,7 +309,7 @@ class CaptionGenerator(BaseModel):
                 last_state = state
                 last_word = sentences[:, idx]
 
-            tf.get_variable_scope().reuse_variables()
+            tf.compat.v1.get_variable_scope().reuse_variables()
 
         # Compute the final loss, if necessary
         if self.is_train:
