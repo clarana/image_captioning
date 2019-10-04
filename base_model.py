@@ -263,7 +263,7 @@ class BaseModel(object):
         #data_dict = np.load(save_path).item()
         data_dict = np.load(save_path,allow_pickle=True).item()
         count = 0
-        for v in tqdm(tf.global_variables()):
+        for v in tqdm(tf.compat.v1.global_variables()):
             if v.name in data_dict.keys():
                 sess.run(v.assign(data_dict[v.name]))
                 count += 1

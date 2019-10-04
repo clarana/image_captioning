@@ -25,7 +25,7 @@ class CaptionGenerator(BaseModel):
         """ Build the VGG16 net. """
         config = self.config
 
-        images = tf.placeholder(
+        images = tf.compat.v1.placeholder(
             dtype = tf.float32,
             shape = [config.batch_size] + self.image_shape)
 
@@ -202,22 +202,22 @@ class CaptionGenerator(BaseModel):
                 dtype = tf.float32,
                 shape = [config.batch_size, config.max_caption_length])
         else:
-            contexts = tf.placeholder(
+            contexts = tf.compat.v1.placeholder(
                 dtype = tf.float32,
                 shape = [config.batch_size, self.num_ctx, self.dim_ctx])
-            last_memory = tf.placeholder(
+            last_memory = tf.compat.v1.placeholder(
                 dtype = tf.float32,
                 shape = [config.batch_size, config.num_lstm_units])
-            last_output = tf.placeholder(
+            last_output = tf.compat.v1.placeholder(
                 dtype = tf.float32,
                 shape = [config.batch_size, config.num_lstm_units])
-            last_word = tf.placeholder(
+            last_word = tf.compat.v1.placeholder(
                 dtype = tf.int32,
                 shape = [config.batch_size])
 
         # Setup the word embedding
-        with tf.variable_scope("word_embedding"):
-            embedding_matrix = tf.get_variable(
+        with tf.compat.v1.variable_scope("word_embedding"):
+            embedding_matrix = tf.compat.v1.get_variable(
                 name = 'weights',
                 shape = [config.vocabulary_size, config.dim_embedding],
                 initializer = self.nn.fc_kernel_initializer,
@@ -228,6 +228,7 @@ class CaptionGenerator(BaseModel):
         lstm = tf.nn.rnn_cell.LSTMCell(
             config.num_lstm_units,
             initializer = self.nn.fc_kernel_initializer)
+
         if self.is_train:
             lstm = tf.nn.rnn_cell.DropoutWrapper(
                 lstm,
@@ -236,7 +237,7 @@ class CaptionGenerator(BaseModel):
                 state_keep_prob = 1.0-config.lstm_drop_rate)
 
         # Initialize the LSTM using the mean context
-        with tf.variable_scope("initialize"):
+        with tf.compat.v1.variable_scope("initialize"):
             context_mean = tf.reduce_mean(self.conv_feats, axis = 1)
             initial_memory, initial_output = self.initialize(context_mean)
             initial_state = initial_memory, initial_output
@@ -258,7 +259,7 @@ class CaptionGenerator(BaseModel):
         # Generate the words one by one
         for idx in range(num_steps):
             # Attention mechanism
-            with tf.variable_scope("attend"):
+            with tf.compat.v1.variable_scope("attend"):
                 alpha = self.attend(contexts, last_output)
                 context = tf.reduce_sum(contexts*tf.expand_dims(alpha, 2),
                                         axis = 1)
@@ -269,17 +270,17 @@ class CaptionGenerator(BaseModel):
                     alphas.append(tf.reshape(masked_alpha, [-1]))
 
             # Embed the last word
-            with tf.variable_scope("word_embedding"):
+            with tf.compat.v1.variable_scope("word_embedding"):
                 word_embed = tf.nn.embedding_lookup(embedding_matrix,
                                                     last_word)
            # Apply the LSTM
-            with tf.variable_scope("lstm"):
+            with tf.compat.v1.variable_scope("lstm"):
                 current_input = tf.concat([context, word_embed], 1)
                 output, state = lstm(current_input, last_state)
                 memory, _ = state
 
             # Decode the expanded output of LSTM into a word
-            with tf.variable_scope("decode"):
+            with tf.compat.v1.variable_scope("decode"):
                 expanded_output = tf.concat([output,
                                              context,
                                              word_embed],

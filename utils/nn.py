@@ -55,8 +55,7 @@ class NN(object):
             activity_regularizer = self.conv_activity_regularizer
         else:
             activity_regularizer = None
-        return tf.layers.conv2d(
-            inputs = inputs,
+        return tf.keras.layers.Conv2D(
             filters = filters,
             kernel_size = kernel_size,
             strides = strides,
@@ -67,7 +66,7 @@ class NN(object):
             kernel_initializer = self.conv_kernel_initializer,
             kernel_regularizer = self.conv_kernel_regularizer,
             activity_regularizer = activity_regularizer,
-            name = name)
+            name = name)(inputs = inputs)
 
     def max_pool2d(self,
                    inputs,
@@ -75,12 +74,11 @@ class NN(object):
                    strides = (2, 2),
                    name = None):
         """ 2D Max Pooling layer. """
-        return tf.layers.max_pooling2d(
-            inputs = inputs,
+        return tf.keras.layers.MaxPooling2D(
             pool_size = pool_size,
             strides = strides,
             padding='same',
-            name = name)
+            name = name)(inputs = inputs)
 
     def dense(self,
               inputs,
@@ -101,16 +99,14 @@ class NN(object):
             kernel_initializer = self.fc_kernel_initializer,
             kernel_regularizer = self.fc_kernel_regularizer,
             activity_regularizer = activity_regularizer,
-            name = name)(inputs)
+            name = name)(inputs = inputs)
 
     def dropout(self,
                 inputs,
                 name = None):
         """ Dropout layer. """
-        return tf.layers.dropout(
-            inputs = inputs,
-            rate = self.config.fc_drop_rate,
-            training = self.is_train)
+        return tf.keras.layers.Dropout(
+            rate = self.config.fc_drop_rate)(inputs = inputs,training = self.is_train)
 
     def batch_norm(self,
                    inputs,

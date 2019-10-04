@@ -36,7 +36,7 @@ def main(argv):
     config.train_cnn = FLAGS.train_cnn
     config.beam_size = FLAGS.beam_size
 
-    with tf.Session() as sess:
+    with tf.compat.v1.Session() as sess:
         if FLAGS.phase == 'train':
             # training phase
             data = prepare_train_data(config)
@@ -62,7 +62,7 @@ def main(argv):
             data, vocabulary = prepare_test_data(config)
             model = CaptionGenerator(config)
             model.load(sess, FLAGS.model_file)
-            tf.get_default_graph().finalize()
+            tf.compat.v1.get_default_graph().finalize()
             model.test(sess, data, vocabulary)
 
 if __name__ == '__main__':
