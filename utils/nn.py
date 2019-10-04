@@ -93,8 +93,7 @@ class NN(object):
             activity_regularizer = self.fc_activity_regularizer
         else:
             activity_regularizer = None
-        return tf.layers.dense(
-            inputs = inputs,
+        return tf.keras.layers.Dense(
             units = units,
             activation = activation,
             use_bias = use_bias,
@@ -102,7 +101,7 @@ class NN(object):
             kernel_initializer = self.fc_kernel_initializer,
             kernel_regularizer = self.fc_kernel_regularizer,
             activity_regularizer = activity_regularizer,
-            name = name)
+            name = name)(inputs)
 
     def dropout(self,
                 inputs,
