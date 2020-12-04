@@ -62,13 +62,13 @@ python main.py --phase=eval \
 The result will be shown in stdout. Furthermore, the generated captions will be saved in the file `val/results.json`.
 
 * **Inference:**
-You can use the trained model to generate captions for any JPEG images! Put such images in the folder `test/images`, and run a command like this:
+You can use the trained model to generate captions for any JPEG images! Put such images in the folder `test/images_sessionname`, and run a command like this:
 ```shell
 python main.py --phase=test \
     --model_file='./models/xxxxxx.npy' \
-    --beam_size=3
+    --beam_size=3 --namedir='sessionname'
 ```
-The generated captions will be saved in the folder `test/results`.
+The generated captions will be saved in the folder `test/results_sessionname`.
 
 ### Results
 A pretrained model with default configuration can be downloaded [here](https://app.box.com/s/xuigzzaqfbpnf76t295h109ey9po5t8p). This model was trained solely on the COCO train2014 data. It achieves the following BLEU scores on the COCO val2014 data (with `beam size=3`):
