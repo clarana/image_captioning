@@ -261,7 +261,7 @@ class BaseModel(object):
 
         print("Loading the model from %s..." %save_path)
         #data_dict = np.load(save_path).item()
-        data_dict = np.load(save_path,allow_pickle=True).item()
+        data_dict = np.load(save_path,allow_pickle=True, encoding="latin1").item()
         count = 0
         for v in tqdm(tf.compat.v1.global_variables()):
             if v.name in data_dict.keys():

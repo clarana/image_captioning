@@ -1,3 +1,5 @@
-/models/50999.npy
+/models/*.npy
 /train/captions_train2014.json
 *.pyc
+*.jpg
+venv/*

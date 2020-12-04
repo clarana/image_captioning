@@ -30,6 +30,10 @@ tf.flags.DEFINE_boolean('train_cnn', False,
 tf.flags.DEFINE_integer('beam_size', 3,
                         'The size of beam search for caption generation')
 
+tf.flags.DEFINE_string('namedir', '', 'The name of the directory \
+                        within the phase folder containing images')
+
+
 def main(argv):
     config = Config()
     config.phase = FLAGS.phase
@@ -39,6 +43,8 @@ def main(argv):
     with tf.compat.v1.Session() as sess:
         if FLAGS.phase == 'train':
             # training phase
+            config.train_image_dir = config.train_image_dir[:-1] + "_" + FLAGS.namedir + "/"
+
             data = prepare_train_data(config)
             model = CaptionGenerator(config)
             sess.run(tf.global_variables_initializer())
@@ -51,6 +57,10 @@ def main(argv):
 
         elif FLAGS.phase == 'eval':
             # evaluation phase
+            config.eval_image_dir = config.eval_image_dir[:-1] + "_" + FLAGS.namedir + "/"
+            config.eval_result_dir = config.eval_result_dir[:-1] + "_" + FLAGS.namedir + "/"
+            config.eval_result_file = config.eval_result_file[:-5] + "_" + FLAGS.namedir + config.eval_result_file[-5:] # .json
+
             coco, data, vocabulary = prepare_eval_data(config)
             model = CaptionGenerator(config)
             model.load(sess, FLAGS.model_file)
@@ -59,6 +69,10 @@ def main(argv):
 
         else:
             # testing phase
+            config.test_image_dir = config.test_image_dir[:-1] + "_" + FLAGS.namedir + "/"
+            config.test_result_dir = config.test_result_dir[:-1] + "_" + FLAGS.namedir + "/"
+            config.test_result_file = config.test_result_file[:-4] + "_" + FLAGS.namedir + config.test_result_file[-4:] # .csv
+
             data, vocabulary = prepare_test_data(config)
             model = CaptionGenerator(config)
             model.load(sess, FLAGS.model_file)

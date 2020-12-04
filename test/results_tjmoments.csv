@@ -1,0 +1,227 @@
+,image_files,caption,prob
+0,./test/images_tjmoments/puss-gets-the-boot_color_frame1498.jpg,a white umbrella sitting on top of a table.,0.0005581114989150307
+1,./test/images_tjmoments/puss-gets-the-boot_color_frame1512.jpg,a close up of a pair of scissors.,0.0008820137092321646
+2,./test/images_tjmoments/puss-gets-the-boot_color_frame1274.jpg,a person is doing a trick on a skateboard.,0.0019518324100695746
+3,./test/images_tjmoments/puss-gets-the-boot_color_frame704.jpg,a close up of a laptop computer on a table.,0.00014144735017351305
+4,./test/images_tjmoments/puss-gets-the-boot_color_frame710.jpg,a close up of a pair of scissors.,0.0007698826952768372
+5,./test/images_tjmoments/puss-gets-the-boot_color_frame1260.jpg,a black and white photo of a remote catching.,0.00012689578691615338
+6,./test/images_tjmoments/puss-gets-the-boot_color_frame1506.jpg,a white teddy bear sitting on top of a table.,0.0002241500961889395
+7,./test/images_tjmoments/puss-gets-the-boot_color_frame1248.jpg,a close up of a pair of scissors.,0.0023726735574169312
+8,./test/images_tjmoments/puss-gets-the-boot_color_frame1738.jpg,a black and white photo of a bed.,0.00016475938508469693
+9,./test/images_tjmoments/puss-gets-the-boot_color_frame1472.jpg,a close up of a teddy bear in a car.,1.688573829887884e-05
+10,./test/images_tjmoments/puss-gets-the-boot_color_frame672.jpg,a black and white photo of a person holding a tennis racket.,0.0009178162511741689
+11,./test/images_tjmoments/puss-gets-the-boot_color_frame1048.jpg,a black and white photo of a fire hydrant.,0.00017855954417307944
+12,./test/images_tjmoments/puss-gets-the-boot_color_frame706.jpg,a person that is sitting on a bed.,0.0003397004168244802
+13,./test/images_tjmoments/puss-gets-the-boot_color_frame1276.jpg,a stuffed animal sitting on top of a table.,0.0021403835391500346
+14,./test/images_tjmoments/puss-gets-the-boot_color_frame1510.jpg,a close up of a white teddy bear.,0.00024022006060391883
+15,./test/images_tjmoments/puss-gets-the-boot_color_frame1504.jpg,a close up of a white teddy bear.,0.00017689381159415363
+16,./test/images_tjmoments/puss-gets-the-boot_color_frame1262.jpg,a black and white cat sitting on a table.,0.00012878513159658928
+17,./test/images_tjmoments/puss-gets-the-boot_color_frame712.jpg,a close up of a pair of scissors.,0.0010445375360654502
+18,./test/images_tjmoments/puss-gets-the-boot_color_frame1288.jpg,a black and white photo of a teddy bear.,0.0007846635961142076
+19,./test/images_tjmoments/puss-gets-the-boot_color_frame698.jpg,a person doing a trick on a skateboard.,0.006124665250000767
+20,./test/images_tjmoments/puss-gets-the-boot_color_frame688.jpg,a black and white photo of a tennis player.,0.001868926330596629
+21,./test/images_tjmoments/puss-gets-the-boot_color_frame1528.jpg,a close up of a stuffed animal.,0.0001870297069877099
+22,./test/images_tjmoments/puss-gets-the-boot_color_frame1266.jpg,a black and white cat sitting on top of a table.,0.0001767750323853921
+23,./test/images_tjmoments/puss-gets-the-boot_color_frame716.jpg,a pair of scissors sitting on top of a table.,0.0008763405852774236
+24,./test/images_tjmoments/puss-gets-the-boot_color_frame1500.jpg,a teddy bear sitting on top of a table.,0.0006468718075381652
+25,./test/images_tjmoments/puss-gets-the-boot_color_frame1514.jpg,a close up of a stuffed animal.,9.04094021112725e-05
+26,./test/images_tjmoments/puss-gets-the-boot_color_frame702.jpg,a black and white photo of a white vase.,3.6387246439455474e-05
+27,./test/images_tjmoments/puss-gets-the-boot_color_frame1272.jpg,a person sitting on a bed with a book.,4.5588752028081204e-05
+28,./test/images_tjmoments/puss-gets-the-boot_color_frame1474.jpg,a close up of a person holding a banana.,0.00031023318404451876
+29,./test/images_tjmoments/puss-gets-the-boot_color_frame676.jpg,a black and white photo of a cat.,0.00015371093217741088
+30,./test/images_tjmoments/puss-gets-the-boot_color_frame1476.jpg,a black and white photo of a stuffed animal.,0.0004307053173403068
+31,./test/images_tjmoments/puss-gets-the-boot_color_frame674.jpg,a group of people standing next to each other.,0.0001699528015746574
+32,./test/images_tjmoments/puss-gets-the-boot_color_frame1728.jpg,a cat sitting on top of a wooden table.,0.0023591813872021316
+33,./test/images_tjmoments/puss-gets-the-boot_color_frame1502.jpg,a stuffed animal sitting on top of a bed.,0.0003693857124533032
+34,./test/images_tjmoments/puss-gets-the-boot_color_frame714.jpg,a person is holding a pair of scissors.,0.0020959000217095096
+35,./test/images_tjmoments/puss-gets-the-boot_color_frame1264.jpg,a stuffed animal sitting on top of a table.,0.00048529793992684955
+36,./test/images_tjmoments/puss-gets-the-boot_color_frame1270.jpg,a dog that is sitting on a chair.,0.0003979880346039851
+37,./test/images_tjmoments/puss-gets-the-boot_color_frame700.jpg,a person is playing a colorful game.,0.00012955040782049784
+38,./test/images_tjmoments/puss-gets-the-boot_color_frame1516.jpg,a close up of a vase of flowers.,3.220592060132886e-05
+39,./test/images_tjmoments/puss-gets-the-boot_color_frame1258.jpg,a close up of a close up of a stop sign.,4.420737532229898e-05
+40,./test/images_tjmoments/puss-gets-the-boot_color_frame728.jpg,a pair of scissors sitting on top of a table.,0.0006555062982845645
+41,./test/images_tjmoments/puss-gets-the-boot_color_frame1488.jpg,a close up of a person holding a banana.,0.00016818225194820252
+42,./test/images_tjmoments/puss-gets-the-boot_color_frame1612.jpg,a close up of a stuffed animal on a bed.,0.0001149377068274258
+43,./test/images_tjmoments/puss-gets-the-boot_color_frame1606.jpg,a close up of a pair of scissors.,0.0008508775026074166
+44,./test/images_tjmoments/puss-gets-the-boot_color_frame1028.jpg,a black and white photo of a street sign.,0.00020162752900806545
+45,./test/images_tjmoments/puss-gets-the-boot_color_frame1000.jpg,a pair of scissors sitting on top of a table.,0.0006259127112455033
+46,./test/images_tjmoments/puss-gets-the-boot_color_frame1766.jpg,a white teddy bear sitting on top of a table.,0.0005179023394625595
+47,./test/images_tjmoments/puss-gets-the-boot_color_frame1772.jpg,a room with a bed and a window.,7.776021850674498e-05
+48,./test/images_tjmoments/puss-gets-the-boot_color_frame1014.jpg,a person standing in front of a fire hydrant.,0.0002359295223623388
+49,./test/images_tjmoments/puss-gets-the-boot_color_frame996.jpg,a close up of a person on a laptop.,0.00017670699966827229
+50,./test/images_tjmoments/puss-gets-the-boot_color_frame772.jpg,a close up of a person holding a book.,5.298026976645462e-05
+51,./test/images_tjmoments/puss-gets-the-boot_color_frame766.jpg,a person is holding a glass of wine.,0.00010463188663764318
+52,./test/images_tjmoments/puss-gets-the-boot_color_frame798.jpg,a person holding a nintendo wii game controller.,0.004918846613571112
+53,./test/images_tjmoments/puss-gets-the-boot_color_frame1798.jpg,a bed with a bunch of pillows on it.,0.00013108961050034595
+54,./test/images_tjmoments/puss-gets-the-boot_color_frame1808.jpg,a person sitting on a bed with a teddy bear.,0.00043679233038848255
+55,./test/images_tjmoments/puss-gets-the-boot_color_frame1598.jpg,a close up of a white teddy bear.,0.00047759106910740174
+56,./test/images_tjmoments/puss-gets-the-boot_color_frame770.jpg,a close up of a person holding a book.,4.481071169493491e-05
+57,./test/images_tjmoments/puss-gets-the-boot_color_frame764.jpg,a stuffed animal sitting on top of a table.,0.00022034288751786538
+58,./test/images_tjmoments/puss-gets-the-boot_color_frame758.jpg,a cat sitting on top of a bed.,0.0005590172732174564
+59,./test/images_tjmoments/puss-gets-the-boot_color_frame1764.jpg,a room with a bed and a table.,2.876678947053554e-05
+60,./test/images_tjmoments/puss-gets-the-boot_color_frame1002.jpg,a close up of a laptop on a table.,0.0001968071954317499
+61,./test/images_tjmoments/puss-gets-the-boot_color_frame1016.jpg,a close up of a person on a skateboard.,0.00019971704432428448
+62,./test/images_tjmoments/puss-gets-the-boot_color_frame1770.jpg,a living room filled with all of furniture.,0.00027483639562736104
+63,./test/images_tjmoments/puss-gets-the-boot_color_frame1758.jpg,a couple of white vases sitting next to each other.,2.810121303500461e-05
+64,./test/images_tjmoments/puss-gets-the-boot_color_frame1610.jpg,a close up of a pair of scissors.,0.00022908712630130256
+65,./test/images_tjmoments/puss-gets-the-boot_color_frame1604.jpg,a close up of a pair of scissors.,0.000305940831376421
+66,./test/images_tjmoments/puss-gets-the-boot_color_frame1638.jpg,a white teddy bear sitting on top of a bed.,0.00016069034373412643
+67,./test/images_tjmoments/puss-gets-the-boot_color_frame1600.jpg,a white teddy bear sitting on top of a table.,0.0004634753833852341
+68,./test/images_tjmoments/puss-gets-the-boot_color_frame1614.jpg,a close up of a pair of scissors.,0.0002317524526397226
+69,./test/images_tjmoments/puss-gets-the-boot_color_frame1628.jpg,a person holding a nintendo wii game controller.,0.004181942094410213
+70,./test/images_tjmoments/puss-gets-the-boot_color_frame1774.jpg,a living room filled with all of furniture.,0.00020987966804163238
+71,./test/images_tjmoments/puss-gets-the-boot_color_frame1012.jpg,a person standing in front of a fire hydrant.,0.0001180923668611778
+72,./test/images_tjmoments/puss-gets-the-boot_color_frame1006.jpg,a close up of a street sign on a street.,7.187521559692414e-05
+73,./test/images_tjmoments/puss-gets-the-boot_color_frame1760.jpg,a living room with a couch and a table.,0.00020186312651555816
+74,./test/images_tjmoments/puss-gets-the-boot_color_frame1748.jpg,a black and white photo of a cat.,1.3280679596824126e-05
+75,./test/images_tjmoments/puss-gets-the-boot_color_frame760.jpg,a stuffed animal sitting on top of a table.,0.00022526241504538294
+76,./test/images_tjmoments/puss-gets-the-boot_color_frame774.jpg,a close up of a remote catching.,8.120715977525583e-05
+77,./test/images_tjmoments/puss-gets-the-boot_color_frame1238.jpg,a close up of a person holding a surfboard.,8.657487677614485e-05
+78,./test/images_tjmoments/puss-gets-the-boot_color_frame748.jpg,a cat sitting on top of a table.,0.00043387849503450407
+79,./test/images_tjmoments/puss-gets-the-boot_color_frame1588.jpg,a close up of a white teddy bear.,0.0001644435656967911
+80,./test/images_tjmoments/puss-gets-the-boot_color_frame1788.jpg,a room with a bed and a bed.,7.843736455221477e-05
+81,./test/images_tjmoments/puss-gets-the-boot_color_frame788.jpg,a person holding a surfboard on a beach.,0.0012444719494666943
+82,./test/images_tjmoments/puss-gets-the-boot_color_frame762.jpg,a black and white photo of a stuffed animal.,0.00010656365693466865
+83,./test/images_tjmoments/puss-gets-the-boot_color_frame776.jpg,a stuffed animal sitting on top of a table.,0.00014986281398098207
+84,./test/images_tjmoments/puss-gets-the-boot_color_frame1038.jpg,a picture of a person holding a skateboard.,0.00010731935626447358
+85,./test/images_tjmoments/puss-gets-the-boot_color_frame1010.jpg,a person standing in front of a bus.,5.7730652266595185e-05
+86,./test/images_tjmoments/puss-gets-the-boot_color_frame1776.jpg,a group of people standing in a room.,7.85293925779826e-05
+87,./test/images_tjmoments/puss-gets-the-boot_color_frame1762.jpg,a room with a table and a table.,1.0488049454163567e-05
+88,./test/images_tjmoments/puss-gets-the-boot_color_frame1004.jpg,a close up of a street sign.,7.541645416679002e-05
+89,./test/images_tjmoments/puss-gets-the-boot_color_frame1602.jpg,a close up of a pair of scissors.,0.00027501571369139064
+90,./test/images_tjmoments/puss-gets-the-boot_color_frame1616.jpg,a close up of a pair of scissors.,0.0045836429873331854
+91,./test/images_tjmoments/puss-gets-the-boot_color_frame800.jpg,a black and white photo of a cat.,2.815780086396663e-05
+92,./test/images_tjmoments/puss-gets-the-boot_color_frame1814.jpg,a room with a bed and a table.,0.00011109649564819818
+93,./test/images_tjmoments/puss-gets-the-boot_color_frame1800.jpg,a bed with a bunch of books on it.,8.57748639077037e-05
+94,./test/images_tjmoments/puss-gets-the-boot_color_frame1784.jpg,a table with a vase of flowers on it.,7.262253644177214e-05
+95,./test/images_tjmoments/puss-gets-the-boot_color_frame1790.jpg,a room with a bed and a bed.,0.00013332889640412654
+96,./test/images_tjmoments/puss-gets-the-boot_color_frame1586.jpg,a white teddy bear sitting on top of a table.,0.00016770527283392245
+97,./test/images_tjmoments/puss-gets-the-boot_color_frame790.jpg,a man is doing a trick on a skateboard.,0.0065128313887723365
+98,./test/images_tjmoments/puss-gets-the-boot_color_frame784.jpg,a person holding a skateboard in the air.,0.0005241942859238372
+99,./test/images_tjmoments/puss-gets-the-boot_color_frame1592.jpg,a close up of a white teddy bear.,0.00011314878621917057
+100,./test/images_tjmoments/puss-gets-the-boot_color_frame1236.jpg,a black and white photo of a car.,9.18045851092487e-05
+101,./test/images_tjmoments/puss-gets-the-boot_color_frame746.jpg,a cat sitting on top of a table.,0.00030017382730431093
+102,./test/images_tjmoments/puss-gets-the-boot_color_frame752.jpg,a cat sitting on top of a table.,0.0005543631369913829
+103,./test/images_tjmoments/puss-gets-the-boot_color_frame1752.jpg,a person that is sitting on a couch.,0.00023340565325317777
+104,./test/images_tjmoments/puss-gets-the-boot_color_frame1034.jpg,a black and white photo of a person on a skateboard.,0.0001977658372799082
+105,./test/images_tjmoments/puss-gets-the-boot_color_frame1020.jpg,a person is playing a colorful game.,8.090901030533297e-05
+106,./test/images_tjmoments/puss-gets-the-boot_color_frame1746.jpg,a black and white photo of a person playing a colorful game.,7.493205688380503e-05
+107,./test/images_tjmoments/puss-gets-the-boot_color_frame1008.jpg,a person standing in front of a fire hydrant.,7.631663560020389e-05
+108,./test/images_tjmoments/puss-gets-the-boot_color_frame1626.jpg,a person holding a nintendo wii game controller.,0.002015429182535935
+109,./test/images_tjmoments/puss-gets-the-boot_color_frame1632.jpg,a white teddy bear sitting on top of a bed.,0.001128115530972748
+110,./test/images_tjmoments/puss-gets-the-boot_color_frame1618.jpg,a close up of a pair of scissors.,0.0007392562957206478
+111,./test/images_tjmoments/puss-gets-the-boot_color_frame1624.jpg,a black and white photo of a white teddy bear.,0.0001363487549424575
+112,./test/images_tjmoments/puss-gets-the-boot_color_frame1630.jpg,a person holding a nintendo wii game controller.,0.0019330809628825137
+113,./test/images_tjmoments/puss-gets-the-boot_color_frame1778.jpg,a room filled with all of flowers.,6.556548419632382e-05
+114,./test/images_tjmoments/puss-gets-the-boot_color_frame1036.jpg,a person standing in front of a television.,8.987618619680762e-05
+115,./test/images_tjmoments/puss-gets-the-boot_color_frame1750.jpg,a person sitting on top of a bed.,9.550323020864652e-05
+116,./test/images_tjmoments/puss-gets-the-boot_color_frame1744.jpg,a black and white photo of a white vase.,6.344410696836603e-05
+117,./test/images_tjmoments/puss-gets-the-boot_color_frame1022.jpg,a person is playing a colorful game.,0.0004333001311400974
+118,./test/images_tjmoments/puss-gets-the-boot_color_frame778.jpg,a person holding a nintendo wii game controller.,0.0030229827287765764
+119,./test/images_tjmoments/puss-gets-the-boot_color_frame1234.jpg,a pair of scissors sitting on top of a table.,0.0002528980674370605
+120,./test/images_tjmoments/puss-gets-the-boot_color_frame750.jpg,a cat sitting on top of a table.,0.0005576381978441178
+121,./test/images_tjmoments/puss-gets-the-boot_color_frame792.jpg,a group of people standing next to each other.,0.0012009280426117043
+122,./test/images_tjmoments/puss-gets-the-boot_color_frame1584.jpg,a white teddy bear sitting on top of a table.,0.00020564870400479018
+123,./test/images_tjmoments/puss-gets-the-boot_color_frame1590.jpg,a close up of a white teddy bear.,9.978454086621232e-05
+124,./test/images_tjmoments/puss-gets-the-boot_color_frame786.jpg,a person on a skateboard doing a trick.,0.0012682275292735586
+125,./test/images_tjmoments/puss-gets-the-boot_color_frame1786.jpg,a room with a bed and a chair.,1.2970968376855583e-05
+126,./test/images_tjmoments/puss-gets-the-boot_color_frame1792.jpg,a bed with a bunch of books on it.,5.990750882424764e-05
+127,./test/images_tjmoments/puss-gets-the-boot_color_frame1816.jpg,a room with a bed and a table.,6.595083211935362e-05
+128,./test/images_tjmoments/puss-gets-the-boot_color_frame1802.jpg,a bed with a bunch of books on it.,8.839597479350474e-05
+129,./test/images_tjmoments/puss-gets-the-boot_color_frame802.jpg,a close up of a person holding a frisbee.,0.0010719160556997766
+130,./test/images_tjmoments/puss-gets-the-boot_color_frame1806.jpg,a bed with a bunch of pillows on it.,7.678002364577018e-05
+131,./test/images_tjmoments/puss-gets-the-boot_color_frame1812.jpg,a bed with a bunch of pillows on it.,4.189364936794257e-05
+132,./test/images_tjmoments/puss-gets-the-boot_color_frame1796.jpg,a bed with a bunch of pillows on it.,0.00013364383823989315
+133,./test/images_tjmoments/puss-gets-the-boot_color_frame1782.jpg,a vase of flowers sitting on top of a table.,0.0004356616751472739
+134,./test/images_tjmoments/puss-gets-the-boot_color_frame782.jpg,a person that is laying on a bed.,0.0005011342944854484
+135,./test/images_tjmoments/puss-gets-the-boot_color_frame1594.jpg,a white teddy bear sitting on top of a table.,0.0002137034559019449
+136,./test/images_tjmoments/puss-gets-the-boot_color_frame796.jpg,a person holding a nintendo wii game controller.,0.0020143617562713365
+137,./test/images_tjmoments/puss-gets-the-boot_color_frame768.jpg,a teddy bear sitting on top of a table.,0.00034482935690165455
+138,./test/images_tjmoments/puss-gets-the-boot_color_frame754.jpg,a cat that is sitting on a table.,0.0017105666054833969
+139,./test/images_tjmoments/puss-gets-the-boot_color_frame998.jpg,a close up of a remote catching.,0.00028059265119073363
+140,./test/images_tjmoments/puss-gets-the-boot_color_frame1768.jpg,a living room with a couch and a table.,0.00012905145331494811
+141,./test/images_tjmoments/puss-gets-the-boot_color_frame1026.jpg,a picture of a person holding an umbrella.,0.00011923761649008358
+142,./test/images_tjmoments/puss-gets-the-boot_color_frame1740.jpg,a room with a bunch of flowers on it.,3.5188470594367764e-05
+143,./test/images_tjmoments/puss-gets-the-boot_color_frame1754.jpg,a room with a bunch of vases on it.,5.291917115645285e-06
+144,./test/images_tjmoments/puss-gets-the-boot_color_frame1032.jpg,a close up of a cake on a table.,0.0002840153025222472
+145,./test/images_tjmoments/puss-gets-the-boot_color_frame1608.jpg,a close up of a pair of scissors.,0.0014208248447723174
+146,./test/images_tjmoments/puss-gets-the-boot_color_frame1634.jpg,a person sitting on a bed with a teddy bear.,6.335849321503252e-05
+147,./test/images_tjmoments/puss-gets-the-boot_color_frame1620.jpg,a close up of a pair of scissors.,0.0008604746879208429
+148,./test/images_tjmoments/puss-gets-the-boot_color_frame1636.jpg,a teddy bear sitting on top of a bed.,9.028136025064088e-05
+149,./test/images_tjmoments/puss-gets-the-boot_color_frame1622.jpg,a close up of a pair of scissors.,0.0002815426143998296
+150,./test/images_tjmoments/puss-gets-the-boot_color_frame1742.jpg,a woman is playing with a wii remote.,0.00012079297852212573
+151,./test/images_tjmoments/puss-gets-the-boot_color_frame1024.jpg,a black and white photo of a street sign.,0.0002442064203597187
+152,./test/images_tjmoments/puss-gets-the-boot_color_frame1030.jpg,a close up of a clock on a wall.,0.00018210646335327233
+153,./test/images_tjmoments/puss-gets-the-boot_color_frame1756.jpg,a pair of scissors sitting on top of a table.,0.000348742616048267
+154,./test/images_tjmoments/puss-gets-the-boot_color_frame1018.jpg,a person flying a kite in the air.,0.0035525803603284694
+155,./test/images_tjmoments/puss-gets-the-boot_color_frame756.jpg,a cat that is sitting on a table.,0.0007138465174098613
+156,./test/images_tjmoments/puss-gets-the-boot_color_frame1596.jpg,a white teddy bear sitting on top of a table.,0.00042872677153817595
+157,./test/images_tjmoments/puss-gets-the-boot_color_frame780.jpg,a person laying on a bed with a book.,9.869853257705418e-05
+158,./test/images_tjmoments/puss-gets-the-boot_color_frame794.jpg,a black and white photo of a teddy bear.,0.00028666119596682405
+159,./test/images_tjmoments/puss-gets-the-boot_color_frame1794.jpg,a bed with a bunch of pillows on it.,0.00011704957261174488
+160,./test/images_tjmoments/puss-gets-the-boot_color_frame1780.jpg,a room filled with all of furniture.,6.776730857924643e-05
+161,./test/images_tjmoments/puss-gets-the-boot_color_frame1804.jpg,a bed with a blanket on it.,3.8525107113846345e-05
+162,./test/images_tjmoments/puss-gets-the-boot_color_frame1810.jpg,a vase of flowers sitting on top of a table.,0.00023262327944831087
+163,./test/images_tjmoments/puss-gets-the-boot_color_frame804.jpg,a person is holding a white frisbee.,0.00016870106278592373
+164,./test/images_tjmoments/puss-gets-the-boot_color_frame678.jpg,a person on a skateboard doing a trick.,0.000880467876126045
+165,./test/images_tjmoments/puss-gets-the-boot_color_frame1724.jpg,a room filled with furniture and a table.,0.00016919962546744195
+166,./test/images_tjmoments/puss-gets-the-boot_color_frame1042.jpg,a close up of a person holding a skateboard.,0.00016393247643811806
+167,./test/images_tjmoments/puss-gets-the-boot_color_frame1730.jpg,a cat sitting on top of a wooden table.,0.007897348516029093
+168,./test/images_tjmoments/puss-gets-the-boot_color_frame1268.jpg,a stuffed animal sitting on top of a table.,0.0005973086540208571
+169,./test/images_tjmoments/puss-gets-the-boot_color_frame718.jpg,a pair of scissors sitting on top of a table.,0.0006269331434416569
+170,./test/images_tjmoments/puss-gets-the-boot_color_frame1240.jpg,a pair of scissors sitting on top of a table.,0.000931218746122004
+171,./test/images_tjmoments/puss-gets-the-boot_color_frame1526.jpg,a close up of a white teddy bear.,0.000347764672919475
+172,./test/images_tjmoments/puss-gets-the-boot_color_frame724.jpg,a pair of scissors sitting on top of a table.,0.0014430155371030796
+173,./test/images_tjmoments/puss-gets-the-boot_color_frame1254.jpg,a close up of a person holding a skateboard.,9.09963041233743e-05
+174,./test/images_tjmoments/puss-gets-the-boot_color_frame1282.jpg,a teddy bear sitting on top of a bed.,0.0005177635091320372
+175,./test/images_tjmoments/puss-gets-the-boot_color_frame1484.jpg,a black and white photo of a cat.,0.00010037409322870359
+176,./test/images_tjmoments/puss-gets-the-boot_color_frame692.jpg,a black and white photo of a person holding a remote.,3.43682506508837e-05
+177,./test/images_tjmoments/puss-gets-the-boot_color_frame686.jpg,a black and white photo of a teddy bear.,0.00045489425058827437
+178,./test/images_tjmoments/puss-gets-the-boot_color_frame1490.jpg,a close up of a person holding a banana.,0.00019931660308248616
+179,./test/images_tjmoments/puss-gets-the-boot_color_frame690.jpg,a person sitting on a couch with a remote.,0.00013354789237671953
+180,./test/images_tjmoments/puss-gets-the-boot_color_frame1486.jpg,a black and white photo of a banana.,0.00014773848597941823
+181,./test/images_tjmoments/puss-gets-the-boot_color_frame1492.jpg,a black and white photo of a banana.,0.0001554344110753436
+182,./test/images_tjmoments/puss-gets-the-boot_color_frame684.jpg,a black and white photo of a cat.,0.0001851807382480573
+183,./test/images_tjmoments/puss-gets-the-boot_color_frame1280.jpg,a black and white photo of a dog.,9.129259941955194e-05
+184,./test/images_tjmoments/puss-gets-the-boot_color_frame1524.jpg,a close up of a white teddy bear.,0.0002786325511247374
+185,./test/images_tjmoments/puss-gets-the-boot_color_frame1242.jpg,a close up of a person holding a kite.,0.0003757531061964145
+186,./test/images_tjmoments/puss-gets-the-boot_color_frame1256.jpg,a couple of chairs in a room.,7.071230398258372e-05
+187,./test/images_tjmoments/puss-gets-the-boot_color_frame726.jpg,a pair of scissors sitting on a table.,0.0005950463900676996
+188,./test/images_tjmoments/puss-gets-the-boot_color_frame1518.jpg,a close up of a white teddy bear.,0.000138057193947272
+189,./test/images_tjmoments/puss-gets-the-boot_color_frame1040.jpg,a person is flying a kite in the air.,0.00011241019277596234
+190,./test/images_tjmoments/puss-gets-the-boot_color_frame1726.jpg,a living room with a table and chairs.,0.00022452592420278694
+191,./test/images_tjmoments/puss-gets-the-boot_color_frame1732.jpg,a couple of cats sitting on top of a table.,0.0013049460981337999
+192,./test/images_tjmoments/puss-gets-the-boot_color_frame1054.jpg,a black and white photo of a person on a skateboard.,0.00016806138327024971
+193,./test/images_tjmoments/puss-gets-the-boot_color_frame1478.jpg,a black and white photo of a cat.,0.0003907055007787943
+194,./test/images_tjmoments/puss-gets-the-boot_color_frame1642.jpg,a picture of a person in a room.,4.672784424350509e-05
+195,./test/images_tjmoments/puss-gets-the-boot_color_frame1050.jpg,a close up of a person holding a skateboard.,4.346673666104531e-05
+196,./test/images_tjmoments/puss-gets-the-boot_color_frame1736.jpg,a black and white photo of a table.,5.3507325625691736e-05
+197,./test/images_tjmoments/puss-gets-the-boot_color_frame1722.jpg,a room with a table and a table.,0.00014077042911444756
+198,./test/images_tjmoments/puss-gets-the-boot_color_frame1044.jpg,a person holding a skateboard in the air.,0.0003131286481737332
+199,./test/images_tjmoments/puss-gets-the-boot_color_frame1252.jpg,a close up of a person holding a kite.,0.0002641076105219781
+200,./test/images_tjmoments/puss-gets-the-boot_color_frame722.jpg,a pair of scissors sitting on top of a table.,0.0019616336322262106
+201,./test/images_tjmoments/puss-gets-the-boot_color_frame1246.jpg,a close up of a pair of scissors.,0.00021130577979156328
+202,./test/images_tjmoments/puss-gets-the-boot_color_frame1520.jpg,a close up of a pair of scissors.,0.0007639877570068462
+203,./test/images_tjmoments/puss-gets-the-boot_color_frame1508.jpg,a close up of a person holding a banana.,3.550195157941046e-05
+204,./test/images_tjmoments/puss-gets-the-boot_color_frame1284.jpg,a stuffed animal sitting on top of a table.,0.0005789398460921597
+205,./test/images_tjmoments/puss-gets-the-boot_color_frame1290.jpg,a person sitting on a bed with a book.,8.084250429922226e-05
+206,./test/images_tjmoments/puss-gets-the-boot_color_frame680.jpg,a black and white photo of a person holding a tennis racket.,0.0001254757892613393
+207,./test/images_tjmoments/puss-gets-the-boot_color_frame1496.jpg,a close up of a pair of scissors.,0.0005249786074301581
+208,./test/images_tjmoments/puss-gets-the-boot_color_frame1482.jpg,a white cat sitting on top of a table.,0.00022243840499463303
+209,./test/images_tjmoments/puss-gets-the-boot_color_frame694.jpg,a black and white photo of a person on a bed.,5.7901782951911604e-05
+210,./test/images_tjmoments/puss-gets-the-boot_color_frame1494.jpg,a white teddy bear sitting on top of a table.,0.00027248553448427893
+211,./test/images_tjmoments/puss-gets-the-boot_color_frame682.jpg,a black and white photo of a person on a skateboard.,0.00010277437754266671
+212,./test/images_tjmoments/puss-gets-the-boot_color_frame696.jpg,a picture of a person sitting on a bench.,0.000253775382010192
+213,./test/images_tjmoments/puss-gets-the-boot_color_frame1480.jpg,a black and white cat sitting in a car.,0.0002464248552504546
+214,./test/images_tjmoments/puss-gets-the-boot_color_frame1286.jpg,a teddy bear sitting on top of a wooden table.,0.00014210666052087736
+215,./test/images_tjmoments/puss-gets-the-boot_color_frame1292.jpg,a person sitting on a desk with a laptop.,5.215795157698151e-05
+216,./test/images_tjmoments/puss-gets-the-boot_color_frame708.jpg,a person holding a pair of scissors.,0.00039133672217685374
+217,./test/images_tjmoments/puss-gets-the-boot_color_frame1278.jpg,a stuffed animal sitting on top of a desk.,0.0011404339195322391
+218,./test/images_tjmoments/puss-gets-the-boot_color_frame720.jpg,a pair of scissors sitting on top of a table.,0.001272724074703108
+219,./test/images_tjmoments/puss-gets-the-boot_color_frame1250.jpg,a pair of scissors sitting on top of a table.,0.00022802444442158329
+220,./test/images_tjmoments/puss-gets-the-boot_color_frame1522.jpg,a white teddy bear sitting on top of a table.,0.0002766096957206048
+221,./test/images_tjmoments/puss-gets-the-boot_color_frame1244.jpg,a close up of a person holding a pair of scissors.,0.00021545479524570237
+222,./test/images_tjmoments/puss-gets-the-boot_color_frame1734.jpg,a room with a couch and a table.,8.542599265710632e-05
+223,./test/images_tjmoments/puss-gets-the-boot_color_frame1052.jpg,a picture of a person on a skateboard.,0.00021987092003344653
+224,./test/images_tjmoments/puss-gets-the-boot_color_frame1046.jpg,a black and white photo of a fire hydrant.,0.0004012504101469399
+225,./test/images_tjmoments/puss-gets-the-boot_color_frame1640.jpg,a person on a skateboard in the air.,0.0013094399961337071
